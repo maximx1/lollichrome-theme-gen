@@ -1,0 +1,37 @@
+{
+  "name": "lollichrome-theme-gen",
+  "version": "1.0.0",
+  "description": "Script to generate theme-color meta tag for lollipops chrome bar coloring",
+  "main": "lollichrome-theme-gen.js",
+  "scripts": {
+    "test": "mocha ./test",
+	 "test-debug": "mocha ./test/--debug-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/maximx1/lollichrome-theme-gen"
+  },
+  "keywords": [
+    "lollipop",
+    "chrome",
+    "theme",
+    "color",
+    "generator",
+    "meta",
+    "tag"
+  ],
+  "author": "Justin Walrath <walrathjaw@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maximx1/lollichrome-theme-gen/issues"
+  },
+  "homepage": "https://github.com/maximx1/lollichrome-theme-gen",
+  "dependencies": {
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "chai": "^3.2.0",
+    "proxyquire": "1.7.3"
+  }
+}
