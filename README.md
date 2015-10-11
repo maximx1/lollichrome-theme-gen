@@ -25,7 +25,7 @@ require("lollichrome-theme-gen")();
 ### Extending
 Don't like the default colors? Want to plug into a database to allow users to select their theme? Want to randomize? You can easily extend the theme:
 
-```Javascript
+```javascript
 var newPlugin = function() {
     this.createColor = function() {
         return "#AAAAAA";    //Any thing that returns a string of the color you want.
