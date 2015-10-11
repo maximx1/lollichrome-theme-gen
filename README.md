@@ -19,7 +19,7 @@ npm install lollichrome-theme-gen
 To use just include the import into your script that will be browserified:
 
 ```javascript
-require("lollichrome-theme-gen");
+require("lollichrome-theme-gen")();
 ```
 
 ### Extending
